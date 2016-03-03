@@ -1,0 +1,724 @@
+
+table.border, tr.border, td.border, th.border
+{
+    border-collapse: collapse;
+    border: 2px solid #0285CE; 
+    padding: 8px;
+    text-align: center;
+ }
+
+.pestana
+{
+    background:none;
+    background-color: #0285CE;
+    text-decoration: none;
+    border: 4px solid #0285CE;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    width: 120px;
+    margin-right: 1px;
+}
+
+.pestana:hover
+{
+    background:none;
+    background-color: #F9F7C2;
+    text-decoration: none;
+    border: 4px solid #0285CE;
+    color: #0285CE;
+    font-weight: bold;
+    font-size: 10px;
+    width: 120px;
+    margin-right: 1px;
+}
+
+.pestanaActiva
+{
+    background:none;
+    background-color: white;
+    text-decoration: none;
+    border: 4px solid #0285CE;
+    color: #0285CE;
+    font-weight: bold;
+    font-size: 10px;
+    width: 120px;
+    margin-right: 1px;
+}
+
+.pestanaFija
+{
+    background:none;
+    background-color: white;
+    text-decoration: none;
+    border: 4px solid #0285CE;
+    color: #0285CE;
+    font-weight: bold;
+    font-size: 12px;
+    height: 50px;
+    width: 120px;
+    margin: 1px;
+}
+
+.pestanaFijaDesactivada
+{
+    background:none;
+    background-color: #0285CE;
+    text-decoration: none;
+    border: 4px solid #0285CE;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    height: 50px;
+    width: 120px;
+    margin: 1px;
+}
+
+.pestanaFijaDesactivada:hover
+{
+    background:none;
+    background-color: #F9F7C2;
+    text-decoration: none;
+    border: 4px solid #0285CE;
+    color: #0285CE;
+    font-weight: bold;
+    font-size: 12px;
+    height: 50px;
+    width: 120px;
+    margin: 1px;
+}
+
+.user
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/user2.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.user:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/user2.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+    img-alt: "Usuario";
+}
+
+
+.rol 
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/tools.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+.rol:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/tools.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+    
+}
+.building 
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/building.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+.building:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/building.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.project
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/projects.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.project:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/projects.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.elect_eq
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/elect_eq.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.elect_eq:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/elect_eq.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+.purchase 
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/shop.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+.purchase:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/shop.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.search
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/search.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.search:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/search.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.help
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/help.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.help:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/help.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.exit
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/exit.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.exit:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/exit.png);
+    img-title: "Salir";
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.computer
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/computer3.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.computer:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/computer3.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.printer
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/printer.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.printer:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/printer.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.monitor
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/monitor.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.monitor:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/monitor.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+.keyboard
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/keyboard.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.keyboard:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/keyboard.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.mouse
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/mouse.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.mouse:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/mouse.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.scanner
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/scanner.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.scanner:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/scanner.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.projector
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/projector.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.projector:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/projector.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+.wire
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/wire.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.wire:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/wire.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+
+
+.other
+{
+  background:none;
+    text-decoration: none;
+    border: 8px solid #0285CE;
+    color: transparent;
+    background-image: url(../icons/other.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;  
+}
+
+.other:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 8px solid #F9F7C2;
+    color: transparent;
+    background-image: url(../icons/other.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 150px;
+    height: 150px;
+}
+.normalButton
+{
+    background:none;
+    text-decoration: none;
+    border: 4px solid #D8D8D8;
+    color: white;
+    background-color: #0193CC;
+}
+.normalButton:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 4px solid #0193CC;
+    color: #0193CC;
+    background-color: #D8D8D8;
+}
+
+.delete
+{
+    background: none; 
+    text-decoration: none; 
+    border: none; 
+    color: transparent; 
+    background-image: url(../icons/papelerap.png); 
+    background-repeat: no-repeat; 
+    background-position:center;
+   
+}
+/*.delete:hover
+{
+    background: none; 
+    text-decoration: none; 
+    border: 2px solid #D8D8D8; 
+    color: transparent; 
+    background-image: url(../icons/papelerap.png); 
+    background-repeat: no-repeat; 
+    background-position:center;
+   
+}*/
+
+.edit
+{
+    background:none;
+    text-decoration: none;
+    border: none;
+    color: transparent;
+    background-image: url(../icons/lapizp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*.edit:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 2px solid #D8D8D8;
+    color: transparent;
+    background-image: url(../icons/lapizp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+
+  .detail
+{
+    background:none;
+    text-decoration: none;
+    border: none;
+    color: transparent;
+    background-image: url(../icons/ojop.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+/*.detail:hover
+{
+    background:none;
+    text-decoration: none;
+    border: 2px solid #D8D8D8;
+    color: transparent;
+    background-image: url(../icons/ojop.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}*/
+
+.download
+{
+    background:none;
+    text-decoration: none;
+    border: none;
+    color: transparent;
+    background-image: url(../icons/downloadp.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+ .detailBuilding
+{
+    background:none;
+    text-decoration: none;
+    border: none;
+    color: transparent;
+    background-image: url(../icons/officep.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+
+ .detailOffice
+{
+    background:none;
+    text-decoration: none;
+    border: none;
+    color: transparent;
+    background-image: url(../icons/elect_eqp.png);
+    background-repeat: no-repeat;
+    background-position:center;
+ 
+    
+}
+ .goProject
+{
+    background:none;
+    text-decoration: none;
+    border: none;
+    color: transparent;
+    background-image: url(../icons/projectp.png);
+    background-repeat: no-repeat;
+    background-position:center;
+ 
+    
+}
+
+ .goPurchase
+{
+    background:none;
+    text-decoration: none;
+    border: none;
+    color: transparent;
+    background-image: url(../icons/shopp.png);
+    background-repeat: no-repeat;
+    background-position:center;
+ 
+    
+}
+
+ .endProject
+{
+    background:none;
+    text-decoration: none;
+    border: none;
+    color: transparent;
+    background-image: url(../icons/turn_off.png);
+    background-repeat: no-repeat;
+    background-position:center;
+ 
+    
+}
+
+
+
